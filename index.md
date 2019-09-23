@@ -6,7 +6,7 @@ Come Back for updates.
 
 ### Welcome to Emma Lytle's GitHub Page
 
-```markdown
+
 
 # Languages
   - *Java*
@@ -23,5 +23,4 @@ These projects have been done during my time at Boise State university.
 
 
 
-```
 
