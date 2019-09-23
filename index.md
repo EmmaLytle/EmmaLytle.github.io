@@ -1,29 +1,27 @@
-## Welcome to Emma Lytle's GitHub Page
+## **Hello World**
 
 This page is still a work in progress as I do not have much to put on it.
 
 Come Back for updates.
 
-### Markdown
-
-This page is created using Markdown which is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Welcome to Emma Lytle's GitHub Page
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Languages
+  - *Java*
+  
+  
+## Completed Classes
+  - *cs121*
+  - *cs221*
+  
+### Projects
 
-- Bulleted
-- List
+These projects have been done during my time at Boise State university. 
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
