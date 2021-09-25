@@ -1,4 +1,4 @@
-name: run-script
+name: test
 on: push
 
 jobs:
