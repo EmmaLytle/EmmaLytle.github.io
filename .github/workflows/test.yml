@@ -1,12 +1,16 @@
 # This is the test workflow that will run the test.sh script
-
+on:
+  push:
+    branches:
+    - master
 name: test
-on: [push]
-
 jobs:
-  build:
+  test:
+    name: Run tests
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: metasploit reverse shell
-      run: sh ./test.sh
+    - uses: actions/checkout@master
+    - name: Test
+      uses: skx/github-action-tester@master
+      with:
+        script: .github/fast-tests.sh
