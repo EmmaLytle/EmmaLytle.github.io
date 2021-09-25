@@ -1,0 +1,21 @@
+name: Labeler
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+  project_card:
+    types: [moved]
+
+jobs:
+  automate-issues-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: initial labeling
+        uses: andymckay/labeler@master
+        with:
+          add-labels: "needs-triage, bug"
+          remove-labels: "in progress"
+          ignore-if-assigned: false
+          ignore-if-labeled: true
