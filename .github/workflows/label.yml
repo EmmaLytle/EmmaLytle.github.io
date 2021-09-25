@@ -17,5 +17,3 @@ jobs:
         with:
           add-labels: "needs-triage, bug"
           remove-labels: "in progress"
-          ignore-if-assigned: false
-          ignore-if-labeled: true
