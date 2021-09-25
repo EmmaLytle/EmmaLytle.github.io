@@ -1,5 +1,5 @@
 # emmalytle.github.io
 
+![Pull requests](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/label.yml/badge.svg)
 
 
-![example event parameter](https://github.com/github/docs/actions/workflows/label.yml/badge.svg?event=pull_request)
